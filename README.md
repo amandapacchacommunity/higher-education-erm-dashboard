@@ -1,38 +1,57 @@
-# Enterprise Risk & Control Self-Assessment (RCSA) Dashboard
-## COSO-Aligned and ISO 31000-Informed for Higher Education
+# Financial Risk Scenario Engine (2025)
 
-This repository demonstrates a synthetic multi-page dashboard for a decentralized higher education risk environment.
+## Overview
+This project is a scenario-based financial and enterprise risk model designed for a mission-driven organization with approximately $10M in annual revenue.
 
-## Included pages
+It demonstrates how financial data, risk exposure, and scenario modeling can be integrated into a single decision-support system.
 
-- `index.html` — Executive summary dashboard
-- `register.html` — Detailed RCSA register
-- `framework.html` — RCSA, COSO, and ISO 31000 mapping
-- `forecast.html` — Scenario forecasting and sensitivity view
-- `style.css` — Shared site styling
-- `script.js` — Shared logic and interactivity
-- `data.json` — Synthetic demo data
+---
 
-## Positioning
+## What This Demonstrates
+- Scenario analysis for financial and operational planning  
+- Integration of ERM and financial performance  
+- Comparison of baseline vs alternative scenarios  
+- Translation of complex data into executive-level insight  
 
-This project is intentionally labeled to indicate all three concepts:
+---
 
-- **RCSA** — the operating assessment method
-- **COSO** — internal control structure and governance
-- **ISO 31000** — enterprise risk management lens
+## Key Features
+- Baseline vs scenario vs deviation comparison  
+- Predefined scenarios for rapid demonstration  
+- Clean $K / $M formatting for executive readability  
+- Integrated financial + risk datasets  
 
-## Notes
+---
 
-- All data is synthetic
-- No real institution names are used
-- No real people, vendors, unions, incidents, or contracts are represented
-- Built for portfolio, interview, and GitHub presentation purposes
+## Example Use Cases
+This model could support:
+- Nonprofit financial planning  
+- Board-level reporting  
+- Risk-informed budgeting  
+- Scenario testing for revenue or donor changes  
 
-## GitHub Pages
+---
 
-To publish:
-1. Upload all files to the repo root
-2. Go to **Settings > Pages**
-3. Choose **Deploy from a branch**
-4. Select `main` and `/ (root)`
-5. Save
+## Files
+- `app.py` — interactive dashboard application  
+- `synthetic_risk_register.csv` — simulated risk data  
+- `synthetic_990_financials.csv` — simulated financial dataset  
+- `requirements.txt` — dependencies  
+
+---
+
+## Why This Matters
+Organizations often lack tools to test how financial changes affect risk exposure.
+
+This project demonstrates how scenario modeling can improve planning, visibility, and decision-making.
+
+---
+
+## Data Note
+All data is synthetic and created for demonstration purposes only.
+
+---
+
+## Author
+Amanda Paccha  
+Institutional Strategy, Governance & Decision Support
